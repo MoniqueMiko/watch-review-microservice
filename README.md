@@ -1,4 +1,4 @@
-# WATCH-REVIEW-MICROSERVICE
+# Watch Review Microservice
 
 Este projeto é um **microsserviço de avaliações (reviews)** construído com [NestJS](https://nestjs.com/). Ele é responsável por gerenciar e processar as avaliações de clientes, comunicando-se via **Kafka** e utilizando **TypeORM** para persistência de dados em **PostgreSQL**. O projeto é totalmente escrito em TypeScript.
 
