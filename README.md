@@ -67,8 +67,7 @@ Este microsserviço utiliza **TypeORM** para interagir com uma base de dados **P
 * Variáveis de ambiente definidas no arquivo `.env`, incluindo:
     ```
     DATABASE_URL=postgres://user:password@host:port/database
-    KAFKA_BROKERS=localhost:9092
-    KAFKA_GROUP_ID=review-microservice-group
+
     ```
 
 ---
@@ -79,3 +78,29 @@ Para compilar o projeto:
 
 ```bash
 npm run build
+```
+
+O código será gerado na pasta `dist/`.
+
+---
+
+## 🧹 Lint e Prettier
+
+Para manter o código limpo e padronizado:
+
+```bash
+npm run lint
+npm run format
+```
+
+---
+
+## 🧑‍💻 Autor
+- Monique Lourenço -> monique_lourenzia@hotmail.com
+---
+
+## 📄 Licença
+
+Este projeto é **UNLICENSED**. Uso restrito conforme especificado.
+
+`````
