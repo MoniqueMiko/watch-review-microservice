@@ -76,7 +76,6 @@ export class ReviewService {
   }
 
   async delete(id) {
-    console.log('cheguei')
     const reviewExist: any = await this._review.findOne({ where: { id: id } });
     if (!reviewExist) return await this._httpExceptionStrategy.responseHelper(404, 'Review não existe');
 

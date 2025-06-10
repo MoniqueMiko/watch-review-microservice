@@ -12,7 +12,7 @@ export class Review {
   comments: string;
 
   @Column()
-  classification: string;
+  classification: number;
 
   @Column({ type: 'timestamp', default: () => 'CURRENT_TIMESTAMP' })
   created_at: Date;
